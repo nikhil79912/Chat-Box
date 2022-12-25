@@ -65,13 +65,13 @@ section.chat_section {
 }
 
 .incoming {
-    background: #d79ceb;
+    background: #3744ad;
     color: #fff;
 }
 
 .outgoing {
-    background: #e9eafd;
-    color: #787986;
+    background: #b12968;
+    color: #b8a2ac;
     margin-left: auto;
 }
 
