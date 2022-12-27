@@ -41,7 +41,7 @@ function appendMessage(msg, type) {
     mainDiv.innerHTML = markUp
     messageArea.appendChild(mainDiv)
 }
-//receive the message
+//receive the message   
 socket.on('message', (msg) => {
     appendMessage(msg, 'incoming') //append the received message in message section of talkrr app
     scrollToBottom();
